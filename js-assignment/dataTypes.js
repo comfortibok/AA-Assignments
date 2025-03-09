@@ -85,13 +85,13 @@ let verify = a > b ? "a is greater than b" : "a is less than b";
 console.log(verify);
 
 let scores = 40;
-if (scores >= 80 && scores <= 100) {
+if (scores >= 90 && scores <= 100) {
   console.log("A");
-} else if (scores >= 70) {
+} else if (scores >= 70 && scores <= 89) {
   console.log("B");
-} else if (scores >= 60) {
+} else if (scores >= 60 && scores <= 69) {
   console.log("C");
-} else if (scores >= 50) {
+} else if (scores >= 50 && scores <= 59) {
   console.log("D");
 } else {
   console.log("F");
